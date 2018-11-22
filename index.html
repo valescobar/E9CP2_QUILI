@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <!-- Main style -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 twittear">
+                    <div class="col-md-1">
+                        <img src="https://picsum.photos/35" alt="">
+                    </div>
+                    <div class="col-md-11">
+                        <form id="myform">
+                            <div class="form-group">
+                                <textarea id="texto" class="form-control" rows="3" placeholder="¿Qué piensas?">
+                                </textarea>
+                            </div>
+                            <input class="btn btnverde btn-sm" type="button" id="addtweet" value="Publicar">
+                        </form>
+                    </div>
+
+                </div>
+                <div class="col-md-6" id="containertweets">
+                    <div class="card">
+                        <button class="btncerrar" type="button" name="button"><i class="fas fa-times cerrar"></i></button>
+                        <img class="avatar" src="https://picsum.photos/40" alt="avatar">
+                        <h4> <strong>Valentina</strong> @valenticosas </h4>
+                        <div class="twit">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        </div>
+                        <img src="https://picsum.photos/500/230" alt="">
+                        <button class="btnlike like"type="button" name="button"><i class="far fa-heart likes"></i></button>
+                        <span>0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- jquery 3.3.1 -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"></script>
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <!-- font awesome 5.5.0 -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+        <!-- Mi scripts -->
+        <script src="scripts.js">
+        </script>
+    </body>
+</html>

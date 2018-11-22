@@ -1,0 +1,58 @@
+body{
+    background-color: #cccccc;
+}
+.twittear{
+    height: 170px;
+    background-color: white;
+    margin-top: 20px;
+}
+.twittear textarea{
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+.twittear img{
+    border-radius: 100%;
+    margin-top: 20px;
+}
+.btnverde{
+    background-color: #4db3a0;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    float: right;
+}
+.card{
+    background-color: white;
+    padding: 20px;
+    height: 415px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.avatar{
+    border-radius: 100%;
+}
+.card h4{
+    display: inline;
+    margin-left: 5px;
+    font-size: 16px;
+}
+.btncerrar{
+    border: none;
+    background-color: inherit;
+    float: right;
+}
+.twit{
+    padding: 5px;
+}
+.likes{
+    padding: 10px;
+    font-size: 20px;
+}
+.btnlike{
+    border: none;
+    background-color: inherit;
+}
+.btnlike :hover{
+    color: #bbbbbb;
+}
